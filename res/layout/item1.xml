@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:id="@+id/iv_pic" />
+	<TextView 
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:id="@+id/tv_title"
+	    android:text="Reading code.Reading code.Reading code."
+	    android:textColor="#000000"
+	    android:textSize="18sp"
+	    android:singleLine="true"
+	    android:ellipsize="end"
+	    android:layout_toRightOf="@id/iv_pic"
+	    />    
+	    
+	<TextView 
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:id="@+id/tv_desp"
+	    android:text="Reading code.Reading code.Reading code.Reading codeReading codeReading code"
+	    android:textColor="#999999"
+	    android:textSize="13sp"
+	    android:maxLines="2"
+	    android:ellipsize="end"
+	    android:layout_toRightOf="@id/iv_pic"
+	    android:layout_below="@id/tv_title"
+	    />  
+
+</RelativeLayout>
